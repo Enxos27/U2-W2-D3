@@ -1,0 +1,17 @@
+// classi dinamiche per padding e margin 
+$spacings-map: (
+sm: 8px,
+normal: 16px,
+md: 24px,
+lg: 32px,
+xl: 48px,
+xxl: 72px
+);
+
+
+@each $name, $value in $spacings-map {
+.p-block-#{$name} { padding-block: $value; }
+.p-inline-#{$name} { padding-inline: $value; }
+.m-block-#{$name} { margin-block: $value; }
+.m-inline-#{$name} { margin-inline: $value; }
+}

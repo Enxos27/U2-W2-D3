@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* _fonts.scss */
+/* _colors.scss */
+.p-block-sm {
+  padding-block: 8px;
+}
+
+.p-inline-sm {
+  padding-inline: 8px;
+}
+
+.m-block-sm {
+  margin-block: 8px;
+}
+
+.m-inline-sm {
+  margin-inline: 8px;
+}
+
+.p-block-normal {
+  padding-block: 16px;
+}
+
+.p-inline-normal {
+  padding-inline: 16px;
+}
+
+.m-block-normal {
+  margin-block: 16px;
+}
+
+.m-inline-normal {
+  margin-inline: 16px;
+}
+
+.p-block-md {
+  padding-block: 24px;
+}
+
+.p-inline-md {
+  padding-inline: 24px;
+}
+
+.m-block-md {
+  margin-block: 24px;
+}
+
+.m-inline-md {
+  margin-inline: 24px;
+}
+
+.p-block-lg {
+  padding-block: 32px;
+}
+
+.p-inline-lg {
+  padding-inline: 32px;
+}
+
+.m-block-lg {
+  margin-block: 32px;
+}
+
+.m-inline-lg {
+  margin-inline: 32px;
+}
+
+.p-block-xl {
+  padding-block: 48px;
+}
+
+.p-inline-xl {
+  padding-inline: 48px;
+}
+
+.m-block-xl {
+  margin-block: 48px;
+}
+
+.m-inline-xl {
+  margin-inline: 48px;
+}
+
+.p-block-xxl {
+  padding-block: 72px;
+}
+
+.p-inline-xxl {
+  padding-inline: 72px;
+}
+
+.m-block-xxl {
+  margin-block: 72px;
+}
+
+.m-inline-xxl {
+  margin-inline: 72px;
+}/*# sourceMappingURL=style.css.map */

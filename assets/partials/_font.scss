@@ -1,0 +1,14 @@
+/* _fonts.scss */
+$font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$base-font-size: 16px;
+$font-size-sm: 0.875rem; // 14px
+$font-size-normal: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 2.5rem; // 40px
+
+@mixin title-big($size:$font-size-xl){
+font-family: $font-sans;
+font-weight: 800;
+line-height: 0.95;
+font-size: $size;
+}
